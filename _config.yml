@@ -1,15 +1,2 @@
 markdown: redcarpet
 baseurl: /Test
-
-highlighter: pygments
-github: [Repository metadata]
-
-gems:
-- jekyll-mentions
-- jemoji
-- jekyll-redirect-from
-- jekyll-sitemap
-
-safe: true
-lsi: false
-source: QCQC/Test
