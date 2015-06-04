@@ -1,3 +1,4 @@
+  <Html>
 <style>
 .nav ul {
   list-style: none;
@@ -40,9 +41,13 @@
     font-size: 1.4em;
   }
  
-
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
  
-  Options 2 - Float
+  /* Options 2 - Float
   .nav li {
     float: left;
   }
@@ -54,10 +59,15 @@
   .nav {
     background-color: #444;
   }
- 
+  */
+  
+  .navbar{
+  padding-bottom: 20px;
+  }
 }
 
 </style>
+<div class = "navbar">
 	<body class="news">
   <header>
     <div class="nav">
@@ -71,3 +81,6 @@
     </div>
   </header>
 </body>
+</div>
+
+</Html>
