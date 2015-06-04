@@ -1,6 +1,12 @@
 <Html>
   <style>
-    .nav ul {
+    body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+ 
+.nav ul {
   list-style: none;
   background-color: #444;
   text-align: center;
@@ -40,20 +46,39 @@
     line-height: 50px;
     font-size: 1.4em;
   }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+ 
+  /* Options 2 - Float
+  .nav li {
+    float: left;
+  }
+  .nav ul {
+    overflow: auto;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .nav {
+    background-color: #444;
+  }
+  */
+}
   </style>
-  <body class="news">
+ <body class="news">
   <header>
-  <div class="nav">
+    <div class="nav">
       <ul>
         <li class="home"><a href="#">Home</a></li>
-        <li class="tutorials"><a class="active" href="#">Research</a></li>
-        <li class="about"><a href="#">Publications</a></li>
-        <li class="news"><a href="#">Software</a></li>
-        <li class="contact"><a href="#">News & Events</a></li>
-                <li class="contact"><a href="#">People</a></li>
-                        <li class="contact"><a href="#">Contact Us</a></li>
+        <li class="tutorials"><a class="active" href="#">Tutorials</a></li>
+        <li class="about"><a href="#">About</a></li>
+        <li class="news"><a href="#">Newsletter</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
       </ul>
     </div>
-    </header>
-    </body>
+  </header>
+</body>
 </Html>
