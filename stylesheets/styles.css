@@ -7,7 +7,14 @@ body {
   color:#777;
   font-weight:300;
 }
-
+#title{
+  height: 60px;
+  width: 100%;
+  background: #d9d9d9;
+  
+  
+  
+}
 #title h1{
   text-align: center;
   margin-bottom: 40px;
