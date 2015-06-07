@@ -69,6 +69,7 @@ a small {
 .wrapper {
   width:1000px;
   margin:0 auto;
+  position: relative;
 }
 
 blockquote {
