@@ -8,10 +8,11 @@ body {
   font-weight:300;
 }
 
-span {
+#myspan {
   display: inline-block;
   vertical-align: middle;
-  line-height: normal;      
+  line-height: normal;   
+  text-size: 22px;
 }
 
 
