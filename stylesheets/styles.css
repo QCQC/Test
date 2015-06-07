@@ -8,13 +8,6 @@ body {
   font-weight:300;
 }
 
-#myspan {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;   
-  text-size: 22px;
-}
-
 
 #title{
   height:200px;
