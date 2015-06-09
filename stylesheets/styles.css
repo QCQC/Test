@@ -6,6 +6,7 @@ body {
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
+  display: inline-block;
 }
 
 
@@ -173,8 +174,8 @@ footer {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:0px 0;
-    margin:0 0 0px;
+    padding:20px 0;
+    margin:0 0 20px;
   }
 
 
@@ -198,7 +199,7 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:0px;
+    padding:15px;
   }
 
 
@@ -206,7 +207,7 @@ footer {
 
 @media print {
   body {
-    padding:0in;
+    padding:0.4in;
     font-size:12pt;
     color:#444;
   }
