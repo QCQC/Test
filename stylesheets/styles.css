@@ -12,6 +12,7 @@ body {
 #title{
   height:150px;
   width: 100%;
+  min-width:1400px;
   background: #ebebeb;
   text-align: center;
 }
