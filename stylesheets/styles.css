@@ -22,6 +22,7 @@ body {
   margin-top: 0px;
   height: 140px;
   line-height: 140px;
+  display: inline-block;
 }
 
 h1, h2, h3, h4, h5, h6 {
